@@ -1,0 +1,80 @@
+{
+  "product": "uu_peoplecounter_maing01",
+  "version": "0.1.0",
+  "license": "License Commercial",
+  "description": {
+    "en": "",
+    "cs": ""
+  },
+  "devkit": {
+    "development": {
+      "appBoxLocationUri": "----- VALUE REQUIRED -----",
+      "appDeploymentUri": null
+    }
+  },
+  "uu_peoplecounter_maing01-hi": {
+    "componentList": [
+      {
+        "code": "UuPeoplecounter.Routes.Peoplecounter",
+        "name": "Peoplecounter",
+        "tagList": [
+          "UuPeoplecounter",
+          "Routes",
+          "Peoplecounter"
+        ],
+        "docCode": "UuPeoplecounterRoutesPeoplecounter",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuPeoplecounter.Routes.Peoplecounter />"
+      },
+      {
+        "code": "UuPeoplecounter.Bricks.Shop",
+        "name": "Shop",
+        "tagList": [
+          "UuPeoplecounter",
+          "Bricks",
+          "Shop"
+        ],
+        "docCode": "UuPeoplecounterBricksShop",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuPeoplecounter.Bricks.Shop />"
+      },
+      {
+        "code": "UuPeoplecounter.Bricks.ShopingCenter",
+        "name": "ShopingCenter",
+        "tagList": [
+          "UuPeoplecounter",
+          "Bricks",
+          "ShopingCenter"
+        ],
+        "docCode": "UuPeoplecounterBricksShopingCenter",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuPeoplecounter.Bricks.ShopingCenter />"
+      },
+      {
+        "code": "UuPeoplecounter.Bricks.Timer",
+        "name": "Timer",
+        "tagList": [
+          "UuPeoplecounter",
+          "Bricks",
+          "Timer"
+        ],
+        "docCode": "UuPeoplecounterBricksTimer",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuPeoplecounter.Bricks.Timer />"
+      }
+    ]
+  },
+  "uu_peoplecounter_maing01-server": {}
+}
